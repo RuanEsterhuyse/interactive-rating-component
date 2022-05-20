@@ -197,13 +197,13 @@ p {
 }
 
 .btn-container button:hover{
-  background-color: var(--Light-Grey);
+  background-color: var(--Orange);
   color:var(--White);
   cursor: pointer;
 }
 
 .btn-container button:active{
-  background-color: var(--Orange);
+  background-color: var(--Light-Grey);
   color:var(--White);
   cursor: pointer;
 }
@@ -220,7 +220,6 @@ p {
   margin-bottom:30px;
 }
 
- 
 
 .hide{
   display:none;
