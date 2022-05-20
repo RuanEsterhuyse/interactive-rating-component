@@ -40,7 +40,6 @@
  
   }
 
-
 .main-card{
     max-width:350px;
     background-color: var(--Dark-Blue);
@@ -83,7 +82,6 @@ p {
   justify-content:center;
   margin-bottom:63px;
 
- 
 }
 
 .image-container img{
@@ -134,8 +132,6 @@ p {
 
 }
 
-
-
 .btn-container button{
     padding: 15px;
     height:50px;
@@ -156,8 +152,6 @@ p {
   
 }
 
-
-
 .btn-container{
   margin-bottom: 20px;
   display: flex;
@@ -165,10 +159,7 @@ p {
   position:relative;
   bottom: 15px;
   
-
 }
-
-
 
 .submit-btn{
   width:100%;
@@ -185,9 +176,6 @@ p {
   position:relative;
   bottom:6px;
  
-
-
-
 }
 
 .submit-btn:hover{
@@ -196,17 +184,19 @@ p {
   cursor: pointer;
 }
 
-.btn-container button:hover{
+ button:hover{
   background-color: var(--Orange);
   color:var(--White);
   cursor: pointer;
 }
 
-.btn-container button:active{
+ button:active{
   background-color: var(--Light-Grey);
   color:var(--White);
   cursor: pointer;
 }
+
+
 
 
 .card-header img{
