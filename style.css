@@ -7,21 +7,21 @@
     --Dark-Blue: hsl(213, 19%, 18%, 0.6);
     --Very-Dark-Blue: hsl(216, 12%, 8%);
  
-  }
+}
   
   body {
       background-color: var(--Very-Dark-Blue);
       color:var(--White);
       font-size:0.9375rem;
       font-family: 'Overpass', sans-serif;
-  }
+}
 
   .container {
       display:flex;
       justify-content:center;
       align-items:center;
       min-height: 100vh;
- }
+}
 
 .main-card {
     max-width:21.875rem;
@@ -178,5 +178,18 @@ p {
 .hide{
   display:none;
 }
-/* .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); } */
+.attribution {
+  font-size: 1rem;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+
+}
+.attribution a {
+  color: var(--Orange);
+  text-decoration: none;
+}
